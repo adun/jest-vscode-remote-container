@@ -1,0 +1,21 @@
+{
+  "name": "jest-vscode-remote-container",
+  "version": "1.0.0",
+  "description": "Jest extension activation on remote hosts sample config",
+  "author": "adun",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
